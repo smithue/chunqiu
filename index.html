@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>春秋</title>
+</head>
+<body>
+    <div style=" text-align: center;padding:20px;">
+<h1>春秋中学，我们的家</h1>
+<div class="header">
+    <p> 欢迎来到春秋</p> </div>
+<p style="font-weight:600;">春秋中学位于山东省菏泽市曹县西环路寺庙路口往北100米，马山庄往南3千米左右，凤阳家具广场对面</p>
+<a href="https://ditu.so.com/?pid=26ee7fa82f3d8c4f&src=seo" ><p style="color:brown">点击获得春秋地址</p></a>
+</div>
+     <div style="text-align:center;font-size: 20px;color:blue;">现在的时间是</div>
+     
+   <div id="div1"></div>
+<div style="text-align:center ;">
+     <!-- 显示实时时间 -->
+     <div class="box"></div>
+     <script>
+         function getTime() {
+             var date = new Date();
+             var year = date.getFullYear(); //获取年份
+             var month = date.getMonth() + 1; //获取月份
+             var day = date.getDate(); //获取日期
+             var hour = date.getHours(); //获取小时
+             hour = hour < 10 ? '0' + hour : hour;
+             var minute = date.getMinutes(); // 获取分
+             minute = minute < 10 ? '0' + minute : minute;
+             var seconds = date.getSeconds(); //获取秒
+             seconds = seconds < 10 ? '0' + seconds : seconds;
+             return year + '年' + month + '月' + day + '日&nbsp;' + hour + ':' + minute + ':' + seconds;
+         }
+  
+         setInterval(function() {
+             document.querySelector('.box').innerHTML = getTime();
+         }, 1000) </script>
+</div>
+<div<>
+<div class="topnav">
+    <a href="https://www.gushiwen.cn/">春秋诗文天地</a>
+    <a href="https://weread.qq.com/">春秋图书馆</a>
+    <a href="https://www.allhistory.com/">春秋历史馆</a>
+    <a href="https://www.ixigua.com/channel/dianying">春秋电影院</a>
+    <a href="http://tools.liumingye.cn/music/?page=searchPage">春秋音乐馆</a>
+    <a href="https://www.iiice.cn/#/">网站</a>
+  </div>
+  <div class="row">
+    <div class="column side">
+      <h2>春秋小报</h2>
+      <p>休言万事转头空，未转头时皆是梦</p>
+     <img src=" https://th.wallhaven.cc/small/y8/y8622k.jpg" alt="111"  width="230px" height="150px">
+    </div>
+    <div class="column middle">
+        <h2>大爱春秋</h2>
+        <p>春秋，它像是江南小镇撑伞走来的吴女，唱着那细雨般愁绵的小调；它像是从历史中走出来的无数相识却不相认的人，带着时间和历史的尘埃和责任前行。</p>
+        <p>啊，春秋，多么动听的名字。春，是那春风又绿江南岸的生机；秋，是那不知相思落谁家的想念。</p>
+        <p>我们来自于不同的地方，在这里相识相聚，走过春夏秋冬。迎着春风与细雨，聆听蝉鸣与月落，看着落叶与大雁，抚摸细雪和香梅。</p>
+        <p>迎友与告别，我的朋友。</p>
+      </div>
+      <div class="column ">
+        <h2>春秋生活</h2>
+        <p>1.高三七班的孙亚展同学早恋全校通报</p>
+        <p>2.高三五班的赵琦同学拾金不昧，全校表扬</p>
+        <p>3.高一新生入学须知</p>
+      </div>
+</div>
+
+   
+   <style>
+    body {background-image:url('https://w.wallhaven.cc/full/v9/wallhaven-v98dj8.jpg');}
+    .header h1 { font-size: 50px;}
+    .topnav { overflow: hidden; background-color: #333;}
+ .topnav a {float: left; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none;}
+ .topnav a:hover { background-color: #ddd; color: black;}
+  .column { float: left; padding: 10px;}
+  .column.side { width: 25%;}
+  .column.middle {width: 50%;}
+  footer { background-color: #f1f1f1; padding: 10px; text-align: center;}
+  @media screen and (max-width: 600px) {.column.side, .column.middle { width: 100%;}}
+
+</style>
+
+</body>
+</html>
